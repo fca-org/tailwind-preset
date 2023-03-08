@@ -10,7 +10,7 @@ module.exports = {
 		container,
     extend: {
 			...fonts,
-      typography: typography()
+      typography
     },
   },
   plugins,
