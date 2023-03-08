@@ -19,7 +19,7 @@ const palettes = {
 
 function generateColorPalette( name = '', colors = [], defaultColor = '' ) {
 	return {
-		 50: `var(--color-${ name }-50,  ${colors[0]})`,
+		 50: `var(--color-${ name }-50, ${colors[0]})`,
 		100: `var(--color-${ name }-100, ${colors[1]})`,
 		200: `var(--color-${ name }-200, ${colors[2]})`,
 		300: `var(--color-${ name }-300, ${colors[3]})`,
@@ -40,9 +40,9 @@ const colors = {
 	current: 'currentColor',
 
 	gray: generateColorPalette( 'gray', palettes.gray, palettes.gray[7] ),
-	dignity: generateColorPalette( 'dignity', palettes.gray, palettes.gray[9] ),
-	integrity: generateColorPalette( 'integrity', palettes.gray, palettes.gray[8] ),
-	grace: generateColorPalette( 'grace', palettes.gray, palettes.gray[5] ),
+	dignity: generateColorPalette( 'dignity', palettes.dignity, palettes.dignity[9] ),
+	integrity: generateColorPalette( 'integrity', palettes.integrity, palettes.integrity[8] ),
+	grace: generateColorPalette( 'grace', palettes.grace, palettes.grace[5] ),
 }
 
 module.exports = { colors };
