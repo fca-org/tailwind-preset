@@ -12,8 +12,8 @@ const palettes = {
 		'#d95a5e', '#c43a45', '#a42c38', '#862633', '#6d222f',
 	],
 	grace: [
-		'#fffce7', '#fff9c1', '#ffef86', '#ffde41', '#ffca0d',
-		'#eaaa00', '#d18600', '#a65e02', '#89490a', '#743c0f',
+		'#fefce8', '#fef9c3', '#fef08a', '#fde047', '#facc15',
+		'#eaaa00', '#ca8a04', '#a16207', '#854d0e', '#713f12',
 	]
 }
 
