@@ -2,7 +2,7 @@ const defaultTheme = require( 'tailwindcss/defaultTheme' );
 
 const fonts = {
   fontFamily: {
-		sans: [ 'var(--font-sans, "Inter")', ...defaultTheme.fontFamily.sans ],
+    sans: [ 'var(--font-sans, "Inter")', ...defaultTheme.fontFamily.sans ],
   },
 };
 
