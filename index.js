@@ -7,8 +7,8 @@ const { typography } = require('./config/typography');
 module.exports = {
   theme: {
     container,
+    colors,
     extend: {
-      colors,
       ...fonts,
       typography
     },
