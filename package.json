@@ -1,6 +1,6 @@
 {
   "name": "@fca/tailwind-preset",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "A Tailwind CSS configurations preset to be shared across FCA projects.",
   "author": "FCA Technology Team",
   "homepage": "https://github.com/fca-org/tailwind-preset",
