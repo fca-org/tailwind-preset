@@ -1,3 +1,5 @@
+const twColors = require('tailwindcss/colors');
+
 const palettes = {
   gray: [
     '#f8fafc', '#f1f5f9', '#e2e8f0', '#cbd5e1', '#94a3b8',
@@ -43,6 +45,27 @@ const colors = {
   dignity: generateColorPalette( 'dignity', palettes.dignity, palettes.dignity[9] ),
   integrity: generateColorPalette( 'integrity', palettes.integrity, palettes.integrity[8] ),
   grace: generateColorPalette( 'grace', palettes.grace, palettes.grace[5] ),
+
+  error: {
+    DEFAULT: `var(--color-error, ${palettes.integrity[6]})`,
+    dark: `var(--color-error-800, ${palettes.integrity[8]})`,
+    light: `var(--color-error-100, ${palettes.integrity[1]})`
+  },
+  info: {
+    DEFAULT: `var(--color-info, ${palettes.dignity[5]})`,
+    dark: `var(--color-info-700, ${palettes.dignity[7]})`,
+    light: `var(--color-info-100, ${palettes.dignity[1]})`
+  },
+  success: {
+    DEFAULT: `var(--color-success, ${twColors.green[500]})`,
+    dark: `var(--color-success-800, ${twColors.green[800]})`,
+    light: `var(--color-success-100, ${twColors.green[100]})`
+  },
+  warning: {
+    DEFAULT: `var(--color-warning, ${palettes.grace[5]})`,
+    dark: `var(--color-warning-800, ${palettes.grace[7]})`,
+    light: `var(--color-warning-100, ${palettes.grace[1]})`
+  },
 }
 
 module.exports = { colors };
