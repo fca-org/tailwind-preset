@@ -42,7 +42,7 @@ const typography = ( theme ) => ( {
       },
       a: {
         borderBottom: `1px solid ${ theme( 'colors.dignity.300' ) }`,
-        fontWeight: theme( 'fontWeight.semibold' ),
+        fontWeight: theme( 'fontWeight.medium' ),
         textDecoration: 'none',
       },
       'a:hover': {
@@ -77,7 +77,7 @@ const typography = ( theme ) => ( {
         fontWeight: theme( 'fontWeight.medium' ),
       },
       pre: {
-        borderRadius: theme( 'borderRadius.xl' ),
+        borderRadius: theme( 'borderRadius.DEFAULT' ),
         boxShadow: theme( 'boxShadow.md' ),
         color: theme( 'colors.gray.50' ),
         display: 'flex',
