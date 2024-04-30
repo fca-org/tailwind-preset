@@ -2,6 +2,7 @@
   "name": "@fca/tailwind-preset",
   "version": "0.2.1",
   "description": "A Tailwind CSS configurations preset to be shared across FCA projects.",
+  "private": true,
   "author": "FCA Technology Team",
   "homepage": "https://github.com/fca-org/tailwind-preset",
   "repository": {
@@ -10,6 +11,11 @@
   },
   "main": "index.js",
   "devDependencies": {
+    "@fca/semantic-release-preset": "github:fca-org/semantic-release-preset#v1.6.1",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "semantic-release": "^21.0.5",
+    "semantic-release-version-bump": "^1.4.1",
     "tailwindcss": "^3.2.7"
   }
 }
